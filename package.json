@@ -1,0 +1,32 @@
+{
+    "name": "hapi-azure-storage",
+    "version": "0.0.1",
+    "description": "",
+    "main": "lib/index.js",
+    "scripts": {
+        "test": "lab -c"
+    },
+    "keywords": [
+        "hapi",
+        "hapi",
+        "plugin"
+    ],
+    "author": "James Dixon <jim.w.dixon@gmail.com>",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/scoutforpets/hapi-azure-storage.git"
+    },
+    "license": "MIT",
+    "devDependencies": {
+        "code": "2.1.1",
+        "eslint": "2.4.0",
+        "eslint-config-hapi": "9.1.0",
+        "hapi": "13.2.1",
+        "lab": "10.3.0"
+    },
+    "dependencies": {
+        "azure-storage": "0.9.0",
+        "bluebird": "3.3.4",
+        "hoek": "3.0.4"
+    }
+}
